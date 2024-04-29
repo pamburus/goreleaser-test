@@ -43,7 +43,5 @@ brews:
     description: "Test project for using GoReleaser with rust"
     license: "MIT"
     skip_upload: auto
-    custom_block: |
-      head "https://github.com/pamburus/goreleaser-test.git"
     test: |
       system "#{bin}/goreleaser-test"

@@ -10,7 +10,7 @@ help:
 
 ## Build debug target
 build:
-	@cargo build --benches
+	@cargo build
 .PHONY: build
 
 ## Build release target
