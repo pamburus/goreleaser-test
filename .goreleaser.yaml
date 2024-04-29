@@ -47,5 +47,3 @@ brews:
       head "https://github.com/pamburus/goreleaser-test.git"
     test: |
       system "#{bin}/goreleaser-test"
-    install: |
-      system "cargo", "install", *std_cargo_args
