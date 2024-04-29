@@ -29,6 +29,7 @@ brews:
       owner: pamburus
       name: homebrew-tap-test
       branch: main
+      token: "{{ .Env.TAP_GITHUB_TOKEN }}"
       pull_request:
         enabled: true
         draft: true
